@@ -739,6 +739,9 @@
 .congrats img {
   height: 50px;
 }
+.none-mobile {
+  display: none !important;
+}
 .bg-footer {
   background-color: #0e1643;
 }
@@ -1012,7 +1015,24 @@
     width: 100%;
     max-width: none;
   }
-
+  .none {
+    display: none !important;
+  }
+  .none-mobile {
+    display: block !important;
+  }
+  .margin-top {
+    margin-top: 14rem !important;
+  }
+  .wrapper-image {
+    margin-top: 3rem !important;
+  }
+  .wrapper-image img {
+    position: absolute;
+    right: -12px;
+    top: -170px;
+    height: 350px;
+  }
   .footer .disclaimer {
     font-size: 16px;
   }
